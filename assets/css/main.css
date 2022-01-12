@@ -1,14 +1,19 @@
-* {
+* //{
 	outline: 1px solid red;
+	max-width: 100%;
 }
 
+html, body{
+margin: 0px;
+
+}
 body {
 	color: rgb(0, 0, 0);
 	background-color: rgb(255, 255, 255);
 	font-size:  18px;
 	font-family: 18px/30px Georgia, serif;
 	text-align:center;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0 20px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -16,11 +21,6 @@ body {
 .header{
 	position: relative;
 	margin-bottom: 25px;
-}
-
-main{
-	
-
 }
 
 .container{
@@ -32,18 +32,71 @@ main{
 	position: relative;
 
 }
-.logo{
-	background: url(/assets/images/logo1.png) left top no-repeat;
-	display: block;
-	width: 800px;
-	height: 150px;
-	margin-left:0px;
-	padding: 0px;
 
+/**** Header ****/
+
+.headerTop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.logo{
+	background: transparent url("/assets/images/logo2.png") no-repeat left top;
+	background-size: 100% auto;
+	display: inline-block;
+	width: 800px;
+	height: 180px;
+}
+
+.followUs .fa {
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	margin: 5px 2px;
+	padding: 0;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: font-size 0.3s ease;
+}
+
+.followUs .fa:hover {
+	font-size: 15px;
+}
+
+.followUs .fa:hover {
+    opacity: 0.7;
+}
+
+.followUs .fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.followUs .fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.followUs .fa-instagram {
+	background: #c75d20;
+	color: white;
+}
+
+.mainMenu{
+	background-color: rgb(228, 153, 203);
+	padding: 15px;
+	margin-top: 0px;
 }
 
 a {
-	color: rgb(170, 10, 10);
+	color: rgb(0, 0, 0);
 	font-weight: bold;
 	padding: 20px;
 	margin:15px;
@@ -86,54 +139,13 @@ ol li {
 	margin-bottom: 15px;
 }
 
-.instaodkaz{
+.instaodkaz {
 	margin: 0px 5px 0px 5px;
 	padding:0px 15px 0px 15px;
 	background-color: rgb(155, 155, 155);
-	border-radius: 10px
+	border-radius: 10px;
+	word-wrap: break-word;
 }
-
-.followUs {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-}
-
-.followUs .fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 25px;
-	position: right;
-	text-decoration: none;
-	margin: 5px 2px;
-	border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-	background: #3B5998;
-	color: white;
-}
-
-.fa-youtube {
-	background: #bb0000;
-	color: white;
-}
-
-.fa-instagram {
-	background: #c75d20;
-	color: white;
-}
-
-.mainMenu{
-	position: relative;
-	top:-50px;
-	background-color: rgb(187, 136, 187);
-	padding:15px;
-	}
 
 h4{
 	font-style: italic;
@@ -166,6 +178,8 @@ footer p a{
 }
 
 .reviews {
+	display: flex;
+	flex-direction: row;
 	list-style:none;
 	overflow: hidden;
 }
@@ -174,19 +188,26 @@ footer p a{
 	font-style: italic;
 	margin: 10px auto;
 	margin-left: 40px;
+	text-align: left;
 }
 
-.reviews li{
+.reviews__item{
 	line-height: 22px;
 	font-size: 16px;
-	float: left;
 	width: 220px;
 	position: relative;
 	text-align: left;
-
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.reviews li:before {
+.reviews__item:last-child {
+	margin-right: 0;
+}
+
+.reviews__item:before {
 	content: '“ ';
 	color: rgb(170, 10, 10);
 	font-size: 80px;
@@ -196,7 +217,7 @@ footer p a{
 	left: -10px;
 }
 
-.review-byline{
+.reviews .review-byline{
 	font-style: italic;
 	font-weight: bold;
 	text-align: right;
@@ -225,4 +246,23 @@ footer p a {
 	color: rgb(170, 10, 10);
 	margin: 0px;
 	padding:0px;
+}
+
+.footerSocials {
+	width: 300px;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: flex-start;
+}
+
+.footerSocials__item {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footerSocials__item i {
+	margin-right: 20px;
 }
