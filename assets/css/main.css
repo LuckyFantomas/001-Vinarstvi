@@ -1,12 +1,11 @@
-* //{
+*{
 	outline: 1px solid red;
 	max-width: 100%;
 }
 
-html, body{
-margin: 0px;
 
-}
+
+
 body {
 	color: rgb(0, 0, 0);
 	background-color: rgb(255, 255, 255);
@@ -94,6 +93,7 @@ body {
 	padding: 15px;
 	margin-top: 0px;
 	font-family: 'Luxurious Roman', cursive;
+	font-size: 25px;;
 	
 	
 
@@ -167,19 +167,49 @@ h4{
 }
 
 
-footer p a{
-	margin: 0px;
-	padding: 0px;
+.citat_levy:before{
+	content: '“';
+	color: rgb(170, 10, 10);
+	font-size: 120px;
+	font-style: italic;
+	position: absolute;
+	top:-20px;
+	left: -20px;
+
+}
+.citat_levy{
+	
+	list-style: none;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 0px;
+	height: auto;
+	width: auto;
+	float: left;
+	display: flex;
+	position: absolute;
+	
+	
+	
 }
 
+.citat_levy_bl{
+	color: grey;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	width: 350px;
+
+}
+
+
 .pre-footer{
-	border-top: 1px dotted rgb(80, 80, 80);
-	border-bottom:1px dotted rgb(80, 80, 80);
+	border-top: 1px solid rgb(80, 80, 80);
 	background-color: #ddd;
 	text-align: center;
 	margin: 0px;
-	padding: 10px 10%;
-	max-width: auto
+	padding: 10px 20px;
+	max-width: 100%;
 }
 
 .reviews {
@@ -187,40 +217,33 @@ footer p a{
 	flex-direction: row;
 	list-style:none;
 	overflow: hidden;
+	margin-right: 50px;;
+	
 }
 
 .reviews blockquote {
 	font-style: italic;
 	margin: 10px auto;
-	margin-left: 40px;
-	text-align: left;
-}
-
-.reviews__item{
-	line-height: 22px;
-	font-size: 16px;
-	width: 220px;
-	position: relative;
-	text-align: left;
+	margin-left: 30px;
 	margin-right: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	text-align: left;
+	
+	
 }
 
-.reviews__item:last-child {
-	margin-right: 0;
-}
 
-.reviews__item:before {
+.reviews li:before {
 	content: '“ ';
+
 	color: rgb(170, 10, 10);
 	font-size: 80px;
 	font-style: italic;
-	position: absolute;
-	top: 20px;
+	position: relative;
+	top: -20px;
 	left: -10px;
+	float: left;
 }
+
 
 .reviews .review-byline{
 	font-style: italic;
@@ -229,6 +252,7 @@ footer p a{
 	margin: 0px;
 
 }
+
 
 footer {
 	margin:0px;
@@ -270,4 +294,10 @@ footer p a {
 
 .footerSocials__item i {
 	margin-right: 20px;
+}
+
+html, body{
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 100%;
 }
