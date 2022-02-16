@@ -10,13 +10,14 @@
 
 
         <!-- css -->
-        <link href="./fotogalerie.css" rel="stylesheet">
+        
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@500&display=swap" rel="stylesheet">
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="./assets/css/normalize.css" rel="stylesheet">
+        <link href="./fotogalerie.css" rel="stylesheet">
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -47,84 +48,50 @@
 </header>
 
 <main>
-    <aside class="citat_levy">
-        <blockquote class="citat_levy_bl">Pijme vínko dokaď žijem, <br>po smrti sa nenapijem...</blockquote>
-      </aside>
+      <div class="full-img" id="fullImgBox">
+        <img src="/assets/images/GALERY/270225902_465186765207047_3522218917344533618_n.jpg" id="fullImg">
+        
+        <span onclick="closeFullImg()">X</span>
+
+      </div>
+      <div class="img-gallery">
+          <img src="/assets/GALERY-zmensene/270225902_465186765207047_3522218917344533618_n.jpg" onclick="openFullImg(this.src)"> 
+          <img src="/assets/GALERY-zmensene/270354438_481144226724720_1221120824847392917_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271249866_1111244306353492_7563944048210192410_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271374944_1288257458354947_4726703450196563103_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271387445_1560264057663418_8459110793833888062_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271434740_1563287697386710_4229358901619586451_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271480037_508248980506867_4557122359253170913_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271574825_642725276967302_7361030998954146636_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271600579_427457972405569_2513818544183330185_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271728379_331144925545961_6812167887707888248_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/271763626_472002724363806_1552875652102953693_n.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/lahve-nase-vyhled.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/vino-podzim-vyhled.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/vino-prkno-syr-hrozen.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/vyhled-kopec.jpg" onclick="openFullImg(this.src)">
+          <img src="/assets/GALERY-zmensene/korky.jpg" onclick="openFullImg(this.src)">
 
 
+     </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+
+
+</script>
+
 
 </main>
 
