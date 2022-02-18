@@ -73,7 +73,14 @@ body {
 	justify-content: center;
 	border-radius: 50%;
 	transition: font-size 0.3s ease;
+	
 }
+
+.followUs{
+	padding-right: 20px;
+
+}
+
 
 .followUs .fa:hover {
 	font-size: 15px;
@@ -103,12 +110,12 @@ body {
 	padding: 15px;
 	margin-top: 0px;
 	font-family: 'Luxurious Roman', cursive;
-	font-size: 20px;
-	margin-bottom: 100px;
+	font-size: 20px;;
 	
 	
 
 }
+
 
 a {
 	color: rgb(179, 174, 174);
@@ -229,6 +236,6 @@ html, body{
 
 }
 .full-img span:hover{
-	transform: scale(2.5) rotate(-5deg);
+	transform: scale(5.5) rotate(-15deg);
 
 }

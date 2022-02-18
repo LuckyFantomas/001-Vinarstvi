@@ -73,7 +73,14 @@ body {
 	justify-content: center;
 	border-radius: 50%;
 	transition: font-size 0.3s ease;
+	
 }
+
+.followUs{
+	padding-right: 20px;
+
+}
+
 
 .followUs .fa:hover {
 	font-size: 15px;
@@ -109,6 +116,7 @@ body {
 
 }
 
+
 a {
 	color: rgb(179, 174, 174);
 	font-weight: bold;
@@ -119,9 +127,11 @@ a {
 
 
 h1 {
-	padding: 20 20 20 0;
+	padding: 50px 0;
 	color: rgb(128, 0, 70);
-	text-align: left;
+	text-align: center;
+	font-family: 'Luxurious Roman', cursive;
+	font-size: 2em;
 }
 
 
@@ -315,4 +325,22 @@ html, body{
 	margin-left: 0px;
 	padding-left: 0px;
 	width: 100%;
+}
+
+article p a {
+	color: rgb(241, 0, 0);
+	font-weight: bold;
+	margin-left: -10px;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+article ul a {
+	color: rgb(241, 0, 0);
+	font-weight: bold;
+	margin-left: -10px;
+	text-decoration: none;
+	font-size: 20px;
+
 }
