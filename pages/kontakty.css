@@ -1,20 +1,6 @@
-*//{
-	outline: 1px solid red;
-	max-width: 100%;
-}
-
-
-
-
-body {
+body{
 	color: rgb(0, 0, 0);
-	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.03, rgb(0, 0, 0)),
-	color-stop(0.26, rgb(115, 0, 36)),
-	color-stop(0.72, rgb(255, 255, 255)));
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.03, rgb(0, 0, 0)),color-stop(0.26, rgb(115, 0, 36)),color-stop(0.72, rgb(255, 255, 255)));
 	background-image: -o-linear-gradient(top, rgb(0, 0, 0) 3%, rgb(115, 0, 36) 26%, rgb(255, 255, 255) 72%);
 	background-image: -moz-linear-gradient(top, rgb(0, 0, 0) 3%, rgb(115, 0, 36) 26%, rgb(255, 255, 255) 72%);
 	background-image: -webkit-linear-gradient(top, rgb(0, 0, 0) 3%, rgb(115, 0, 36) 26%, rgb(255, 255, 255) 72%);
@@ -24,7 +10,6 @@ body {
 	margin: 0;
 	padding: 0 20px;
 	-webkit-font-smoothing: antialiased;
-	
 }
 
 .header{
@@ -33,18 +18,14 @@ body {
 }
 
 .container{
-	
 	padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 	position: relative;
-
 }
 
-/**** Header ****/
-
-.headerTop {
+.headerTop{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -60,7 +41,7 @@ body {
 	height: 180px;
 }
 
-.followUs .fa {
+.followUs .fa{
 	font-size: 20px;
 	width: 30px;
 	height: 30px;
@@ -73,34 +54,31 @@ body {
 	justify-content: center;
 	border-radius: 50%;
 	transition: font-size 0.3s ease;
-	
 }
 
 .followUs{
 	padding-right: 20px;
-
 }
 
-
-.followUs .fa:hover {
+.followUs .fa:hover{
 	font-size: 15px;
 }
 
-.followUs .fa:hover {
+.followUs .fa:hover{
     opacity: 0.7;
 }
 
-.followUs .fa-facebook {
+.followUs .fa-facebook{
 	background: #3B5998;
 	color: white;
 }
 
-.followUs .fa-youtube {
+.followUs .fa-youtube{
 	background: #bb0000;
 	color: white;
 }
 
-.followUs .fa-instagram {
+.followUs .fa-instagram{
 	background: #c75d20;
 	color: white;
 }
@@ -110,14 +88,10 @@ body {
 	padding: 15px;
 	margin-top: 0px;
 	font-family: 'Luxurious Roman', cursive;
-	font-size: 20px;;
-	
-	
-
+	font-size: 20px;
 }
 
-
-a {
+a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
 	padding: 20px;
@@ -125,13 +99,11 @@ a {
 	text-decoration: none;
 }
 
-
-h1 {
+h1{
 	padding: 20 20 20 0;
 	color: rgb(128, 0, 70);
 	text-align: left;
 }
-
 
 h3 {
 	font-size: 20px;
@@ -140,22 +112,18 @@ h3 {
 	color: rgb(128, 0, 70);
 }
 
-/* ARTICLE */
 article {
 	margin: 20px 25%;
 	padding: 0px;
 	text-align: left;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-family:'Luxurious Roman', cursive;
-
 }
-
 
 .firstpart{
 	margin-left: 0px;
 	margin-right: 0px;
 	font-size: 22px;
-
 }
 
 ol li {
@@ -178,13 +146,13 @@ h4{
 	font-size: 18px;
 	margin-bottom: 0px;
 }
+
 .historie{
 	text-align: left;
 	font-style: italic;
 	font-size: 17px;
 	margin-bottom: 150px;
 }
-
 
 .citat_levy:before{
 	content: '“';
@@ -196,10 +164,9 @@ h4{
 	left: 20px;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-family:'Luxurious Roman', cursive;
-
 }
+
 .citat_levy{
-	
 	list-style: none;
 	text-decoration: none;
 	text-align: left;
@@ -212,9 +179,6 @@ h4{
 	padding-top: 50px;
 	font-style: italic;
 	font-family: 'Dancing Script'
-	
-	
-	
 }
 
 .citat_levy_bl{
@@ -223,9 +187,7 @@ h4{
 	font-weight: bold;
 	font-style: italic;
 	width: 350px;
-
 }
-
 
 .pre-footer{
 	color: rgb(231, 231, 231);
@@ -240,22 +202,16 @@ h4{
 	list-style:none;
 	overflow: hidden;
 	margin: 50px;
-	
 }
 
-.reviews blockquote {
+.reviews blockquote{
 	font-style: italic;
 	margin: 10px 10px;
-
 	text-align: left;
-	
-	
 }
 
-
-.reviews li:before {
+.reviews li:before{
 	content: '“ ';
-
 	color: rgb(231, 231, 231);
 	font-size: 80px;
 	font-style: italic;
@@ -265,9 +221,6 @@ h4{
 	float: left;
 }
 
-
-
-
 .material-icons{
 	font-size: 36px;
 	color: rgb(128, 0, 70);
@@ -275,7 +228,7 @@ h4{
 	padding:0px;
 }
 
-.footerSocials {
+.footerSocials{
 	width: 300px;
 	max-width: 100%;
 	display: flex;
@@ -284,13 +237,13 @@ h4{
 	justify-content: flex-start;
 }
 
-.footerSocials__item {
+.footerSocials__item{
 	display: inline-flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-.footerSocials__item i {
+.footerSocials__item i{
 	margin-right: 20px;
 }
 
@@ -303,15 +256,20 @@ html, body{
 h2, p {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-family:'Luxurious Roman', cursive;
+}
 
+p{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 580px
 }
 
 .container2{
 	width: 760px;
 	margin: 0 auto;
+	text-align: left;
 
 }
-
 
 .section-1 {
 	color: #fdeaea;
@@ -321,10 +279,8 @@ h2, p {
 	text-align: left;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-family:'Luxurious Roman', cursive;
-	
-
-
 }
+
 h1{
 	padding: 50px 0;
 	color: rgb(128, 0, 70);
@@ -333,46 +289,66 @@ h1{
 	font-size: 2em;
 }
 
-input: :not([type="checkbox"]):not([type="radio"]):not([type="file"])
+input :not([type="checkbox"]):not([type="radio"]):not([type="file"])
 textarea,
 select {
 	background: #fff;
-	border: none;
+	border:none;
 	width: 250px;
 	padding: 15px 20px;
-	margin: 5px;
+	margin: 5px, 10px;
 	border-radius: 4px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
-	
 }
 
 textarea{
 	border:#bb0000 solid 1px;
 	width: 675px;
 	height: 300px;
-	margin: 20px auto;
+	margin: 20px 5px;
+	border-radius: 14px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
+
+input{
+	background: #fff;
+	border: none;
+	width: 250px;
+	padding: 15px 20px;
+	margin: 5px;
+	margin-left: 10px;
+	border-radius: 4px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+	}
+
 button{
 	color: #ffffff;
 	background: #bb0000;
 	padding: 15px 20px;
-	margin: 15px;
+	margin: 20px;
 	border-radius: 14px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 	font-size: 20px;
 	margin-right: 250px;
+	cursor: pointer;
 }
 
-input{
-background: #fff;
-border: none;
-width: 250px;
-padding: 15px 20px;
-margin: 5px;
-border-radius: 4px;
-box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+select{
+	width: 675px;
+	margin-left: 5px;
+}
+
+input[type="checkbox"]{
+	padding: 10px;
+	margin: 50px 5px, 0px, 5px;
+	width: auto;
+	cursor: pointer;
 }
 
 label{
-	padding: 0;
+	cursor: pointer;
+}
+
+.checkboxy{
+	margin-top: 20px;
 }
