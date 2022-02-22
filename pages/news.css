@@ -128,8 +128,13 @@ article{
 	font-size: 22px;
 }
 
-ol li{
+ul ol li{
 	margin-bottom: 15px;
+	line-height: 25px
+}
+a:hover{
+	text-decoration: underline;
+
 }
 
 .instaodkaz{
