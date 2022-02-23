@@ -91,6 +91,10 @@ body{
 	font-size: 20px;
 }
 
+a:hover{
+		text-decoration: underline;
+}
+
 a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
@@ -131,10 +135,6 @@ article{
 ul ol li{
 	margin-bottom: 15px;
 	line-height: 25px
-}
-a:hover{
-	text-decoration: underline;
-
 }
 
 .instaodkaz{

@@ -17,6 +17,14 @@ body{
 	margin-bottom: 25px;
 }
 
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	position: relative;
+}
+
 .headerTop{
 	display: flex;
 	flex-direction: row;
@@ -81,6 +89,10 @@ body{
 	margin-top: 0px;
 	font-family: 'Luxurious Roman', cursive;
 	font-size: 20px;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 a{
@@ -161,7 +173,6 @@ h4{
 }
 
 .citat_levy{
-	
 	list-style: none;
 	text-decoration: none;
 	text-align: left;
@@ -183,7 +194,6 @@ h4{
 	font-style: italic;
 	width: 350px;
 }
-
 .pre-footer{
 	color: rgb(231, 231, 231);
 	background-color: none;
@@ -191,7 +201,7 @@ h4{
 	max-width: 100%;
 }
 
-.reviews {
+.reviews{
 	display: flex;
 	flex-direction: row;
 	list-style:none;
@@ -199,13 +209,13 @@ h4{
 	margin: 50px;
 }
 
-.reviews blockquote {
+.reviews blockquote{
 	font-style: italic;
 	margin: 10px 10px;
 	text-align: left;
 }
 
-.reviews li:before {
+.reviews li:before{
 	content: '“ ';
 	color: rgb(231, 231, 231);
 	font-size: 80px;
@@ -223,7 +233,7 @@ h4{
 	margin: 0px;
 }
 
-footer {
+footer{
 	background-color:none;
 	color: rgb(231, 231, 231);
 	font-size: 17px;
@@ -247,7 +257,7 @@ footer p a{
 	padding:0px;
 }
 
-.footerSocials {
+.footerSocials{
 	width: 300px;
 	max-width: 100%;
 	display: flex;
@@ -256,13 +266,13 @@ footer p a{
 	justify-content: flex-start;
 }
 
-.footerSocials__item {
+.footerSocials__item{
 	display: inline-flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-.footerSocials__item i {
+.footerSocials__item i{
 	margin-right: 20px;
 }
 
@@ -271,3 +281,90 @@ html, body{
 	padding-left: 0px;
 	width: 100%;
 }
+
+/* ADAPTIVE */
+@media screen and ( max-width: 1000px ){
+
+body {
+	width: 100%;
+	padding:0px;
+	margin: 0px;
+
+}
+article {
+	padding: 0px 35px;
+	margin: 10px 0px;
+}
+
+.firstpart,
+.secondpart,
+.historie{
+	position: relative;
+	top: 30px;
+}
+
+h1{
+	position: relative;
+		top: -30px;
+	}
+
+	.citat_levy,
+	.citat_levy_bl,
+	.citat_levy:before{
+		position: relative;
+		top: 30px;
+		padding: 0px;
+}
+
+.mainMenu a{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+}
+
+
+@media screen and ( max-width: 700px ){
+	.mainMenu a,
+	.mainMenu{
+		padding-left: 0px;
+		padding-right: 0px;
+		position: relative;
+		top: -100px;
+	}
+	.mainMenu a{
+		top: 0px
+	}
+
+	h1 {
+		position: relative;
+		top: -130px;
+		margin: 0px, 25%;
+	}
+}
+
+@media screen and ( max-width: 406px ){
+	h1 {
+		position: relative;
+		top: -300px;
+		padding: 0px;
+		left:0px;
+		text-align: center;
+	}
+}
+@media screen and ( max-width: 717px ){
+	.pre-footer {
+		padding: 0px;
+	}
+}
+
+@media screen and ( max-width: 336px ){
+	.pre-footer {
+		padding: 0px;
+		
+	}
+	ul,
+	li{
+		display: table-column;
+		direction: column;
+		text-align: center;
+	}
