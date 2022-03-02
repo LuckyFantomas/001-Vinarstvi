@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
         <link href="./assets/css/normalize.css" rel="stylesheet">
         <link href="./fotogalerie.css" rel="stylesheet">
-        <link href="./fotogalerie.js" rel="stylesheet">
+     
 
 
         <!-- Add icon library -->
@@ -73,23 +73,22 @@
         <img src="/assets/GALERY-zmensene/vyhled-kopec.jpg" onclick="openFullImg(this.src)">
         <img src="/assets/GALERY-zmensene/korky.jpg" onclick="openFullImg(this.src)">
     </div>
-    <script>
+<script>
+
         var fullImgBox = document.getElementById("fullImgBox");
         var fullImg = document.getElementById("fullImg");
-
+    
         function openFullImg(pic){
             fullImgBox.style.display = "flex";
             fullImg.src = pic;
-        
+    
         }
-
+    
         function closeFullImg(){
             fullImgBox.style.display = "none";
-        }
-
-
+    }
+        
     </script>
-
 
 </main>
     <footer>
@@ -102,5 +101,11 @@
               <a href="tel:7211121111">a nebo nám zavolejte</a></p>
               <p>v pracovní dny mezi 09-17:00h.</p>
   </footer>
+  
+     <!--scripts-->
+     <script src="/assets/js/jQuery.js"></script>
+     <script src="./fotogalerie.js"></script>
+     <script src="./style.js"></script>
+
 </body>
 </html>
