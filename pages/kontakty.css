@@ -86,19 +86,20 @@ body{
 .mainMenu{
 	background-color: rgb(128, 0, 70);
 	padding: 15px;
-	margin-top: 0px;
+	margin-top: 20px;
 	font-family: 'Luxurious Roman', cursive;
 	font-size: 20px;
 }
 
-a:hover{
-	text-decoration: underline;
+.mainMenu a:hover{
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);	
 }
 
 a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
-	padding: 20px;
+	padding: 15px 20px;
 	margin:15px;
 	text-decoration: none;
 }
@@ -257,7 +258,7 @@ h2, p {
 
 p{
 	font-size: 20px;
-	text-align: center
+	text-align: center;
 	margin: 30px 25%;
 }
 
@@ -349,4 +350,11 @@ label{
 .checkboxy{
 	margin-top: 20px;
 	text-align: left;
+}
+
+.selected {
+	font-weight: bold;
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
+	
 }

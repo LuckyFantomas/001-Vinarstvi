@@ -1,31 +1,68 @@
+
 var icons = $('.fa'),
     styles = {
         position: 'relative',
         zIndex: 10,
     },
     settings = { top: 200, right: 150 },
-    speed = 500;
+    speed = 1000;
         
 
-icons.css(styles);
 
-    icons.on('mouseenter', function() {
-        $(this).animate(settings, speed);
+icons.on('mouseenter', function () {
+    icons.css(styles)
+    $(this).animate(settings, speed)
     });
-
-
-
-
-
-$('.mainMenu a').hover(function () {
-    $( this ).fadeOut( 100 );
-    $(this).fadeIn(1000);
-  
-    });
-
-
 
 
 $('main').hide().fadeIn(1000);
-$('.citat_levy').hide().fadeToggle(8000);
+$('.citat_levy').hide().fadeToggle(5000);;
 
+
+
+
+
+$('.mainMenu').find('a').on('click', function(event) {
+	
+	$(this)
+		.addClass('selected')
+        .siblings().removeClass('selected');
+        
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+var a = +prompt("Enter first number");
+var b = 3;
+
+alert(a * b);
+
+
+function nasob(a, b) {
+    return a * b
+}
+var vysledek = nasob (a, b)
+console.log(vysledek);*/
+
+/*var a = +prompt("Enter first number");
+var b = +prompt("Enter second number");
+alert(a + b);
+
+
+function scitej(a, b) {
+    return a + b
+}
+var vysledek = scitej (a, b)
+console.log (vysledek)*/

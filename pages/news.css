@@ -92,13 +92,18 @@ body{
 }
 
 a:hover{
-	text-decoration: underline;
+	text-decoration:underline
+}
+.mainMenu a:hover{
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
+	text-decoration: none;	
 }
 
 a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
-	padding: 20px;
+	padding: 15px 20px;
 	margin:15px;
 	text-decoration: none;
 }
@@ -137,12 +142,8 @@ ul ol li{
 	line-height: 25px
 }
 
-.instaodkaz{
-	margin: 0px 5px 0px 5px;
-	padding:0px 15px 0px 15px;
-	background-color: rgb(53, 53, 53);
-	border-radius: 10px;
-	word-wrap: break-word;
+.odkaz{
+	line-height: 55px
 }
 
 h4{
@@ -306,4 +307,11 @@ html, body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
+}
+
+.selected {
+	font-weight: bold;
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
+	
 }

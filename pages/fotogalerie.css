@@ -93,14 +93,15 @@ body{
 	margin-bottom: 100px;
 }
 
-a:hover{
-	text-decoration: underline;
+.mainMenu a:hover{
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
 }
 
 a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
-	padding: 20px;
+	padding: 15px 20px;
 	margin:15px;
 	text-decoration: none;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -207,4 +208,11 @@ html, body{
 
 .full-img span:hover{
 	transform: scale(5.5) rotate(-15deg);
+}
+
+.selected {
+	font-weight: bold;
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
+	
 }

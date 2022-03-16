@@ -85,20 +85,21 @@ body{
 
 .mainMenu{
 	background-color: rgb(128, 0, 70);
-	padding: 15px;
-	margin-top: 0px;
+	padding: 15px 15px;
+	margin-top: -3px;
 	font-family: 'Luxurious Roman', cursive;
 	font-size: 20px;
 }
 
-a:hover{
-	text-decoration: underline;
+.mainMenu a:hover{
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
 }
 
 a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
-	padding: 20px;
+	padding: 16px 20px;
 	margin:15px;
 	text-decoration: none;
 }
@@ -282,6 +283,12 @@ html, body{
 	width: 100%;
 }
 
+.selected {
+	font-weight: bold;
+	color: rgb(128, 0, 70);
+	background-color: rgb(179, 174, 174);
+	
+}
 /* ADAPTIVE */
 @media screen and ( max-width: 1000px ){
 
