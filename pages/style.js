@@ -1,3 +1,9 @@
+swal({
+    title: "UPOZORNĚNÍ!",
+    text: "Stránka je ve vývoji, makáme na ní!",
+    icon: "info",
+  });
+
 
 var icons = $('.fa'),
     styles = {

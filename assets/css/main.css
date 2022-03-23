@@ -1,3 +1,4 @@
+
 body{
 	color: rgb(0, 0, 0);
 	background-image: -webkit-gradient(linear, left bottom,left top, color-stop(0.03, rgb(0, 0, 0)), color-stop(0.26, rgb(115, 0, 36)), color-stop(0.72, rgb(255, 255, 255)));
@@ -214,6 +215,7 @@ h4{
 	font-style: italic;
 	margin: 10px 10px;
 	text-align: left;
+	height: 100px
 }
 
 .reviews li:before{
@@ -226,6 +228,13 @@ h4{
 	left: -10px;
 	float: left;
 }
+
+.reviews li{
+	
+	width: 300px;
+	margin: 20px auto;
+}
+
 
 .reviews .review-byline{
 	font-style: italic;
