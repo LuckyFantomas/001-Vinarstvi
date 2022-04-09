@@ -1,1 +1,1 @@
-﻿# First-website-no responsiv
+﻿# First-website-no responsive
