@@ -100,7 +100,7 @@ body{
 a{
 	color: rgb(179, 174, 174);
 	font-weight: bold;
-	padding: 16px 20px;
+	padding: 15px 20px;
 	margin:15px;
 	text-decoration: none;
 }
@@ -296,10 +296,15 @@ html, body{
 	font-weight: bold;
 	color: rgb(128, 0, 70);
 	background-color: rgb(179, 174, 174);
-	
 }
+
+
+
+
 /* ADAPTIVE */
-@media screen and ( max-width: 1000px ){
+
+
+/* @media screen and ( max-width: 1000px ){
 
 body {
 	width: 100%;
@@ -383,4 +388,4 @@ h1{
 		display: table-column;
 		direction: column;
 		text-align: center;
-	}
+	} */
