@@ -1,111 +1,148 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="cs">
     <head>
-        <meta charset="utf-8">
-        <meta name="keywords" content="vinařství, rodinné vinařství, Stibůrek, tvrdonice, ubytování, víno morava, podluží">
-        <meta name="description" content="Rodinné vinařství na jižní Moravě v malebné obci Tvrdonice. Zastavte se za námi na skleničku nebo láhev kvalitního vína. Těší se na Vás Stibůrkovi.">
-        <meta name="author" content="Lucky Fantomas">
+        <meta charset="utf-8" />
+        <meta
+            name="keywords"
+            content="vinařství, rodinné vinařství, Stibůrek, tvrdonice, ubytování, víno morava, podluží"
+        />
+        <meta
+            name="description"
+            content="Rodinné vinařství na jižní Moravě v malebné obci Tvrdonice. Zastavte se za námi na skleničku nebo láhev kvalitního vína. Těší se na Vás Stibůrkovi."
+        />
+        <meta name="author" content="Lucky Fantomas" />
         <title>Rodinné vinařství STIBŮREK</title>
 
-
         <!-- Fonts & CSS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-        <link href="./assets/css/normalize.css" rel="stylesheet">
-        <link href="./fotogalerie.css" rel="stylesheet">
-     
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./fotogalerie.css" rel="stylesheet" />
 
         <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </head>
 
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="headerTop">
-                <a class="logo"></a>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="headerTop">
+                    <a class="logo"></a>
 
-                <div class="followUs">
-                    <a href="#" target="_blank" class="fa fa-facebook"></a>
-                    <a href="#" target="_blank" class="fa fa-instagram"></a>
-                    <a href="#" target="_blank" class="fa fa-youtube"></a>
+                    <div class="followUs">
+                        <a href="#" target="_blank" class="fa fa-facebook"></a>
+                        <a href="#" target="_blank" class="fa fa-instagram"></a>
+                        <a href="#" target="_blank" class="fa fa-youtube"></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="mainMenu">
-            <a href="/">O nás</a>
-            <a href="/pages/news.html">Kam v okolí?</a>
-            <a href="/pages/cenik.html">Ceník</a>
-            <a href="/pages/Fotogalerie.html">Fotogalerie</a>
-            <a href="/pages/kontakty.html">Kontakty</a>
-        </div>
-    </header>
+            <div class="mainMenu">
+                <a href="/">O nás</a>
+                <a href="/pages/news.html">Kam v okolí?</a>
+                <a href="/pages/cenik.html">Ceník</a>
+                <a href="/pages/Fotogalerie.html">Fotogalerie</a>
+                <a href="/pages/kontakty.html">Kontakty</a>
+            </div>
+        </header>
 
-<main>
-    <div class="full-img" id="fullImgBox">
-        <img src="/assets/images/GALERY/270225902_465186765207047_3522218917344533618_n.jpg" id="fullImg">
-        
-        <span onclick="closeFullImg()">X</span>
+        <main>
+            <div class="full-img" id="fullImgBox">
+                <img src="/assets/images/GALERY/270225902_465186765207047_3522218917344533618_n.jpg" id="fullImg" />
 
-    </div>
-    <div class="img-gallery">
-        <img src="/assets/GALERY-zmensene/270225902_465186765207047_3522218917344533618_n.jpg" onclick="openFullImg(this.src)"> 
-        <img src="/assets/GALERY-zmensene/270354438_481144226724720_1221120824847392917_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271249866_1111244306353492_7563944048210192410_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271374944_1288257458354947_4726703450196563103_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271387445_1560264057663418_8459110793833888062_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271434740_1563287697386710_4229358901619586451_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271480037_508248980506867_4557122359253170913_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271574825_642725276967302_7361030998954146636_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271600579_427457972405569_2513818544183330185_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271728379_331144925545961_6812167887707888248_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/271763626_472002724363806_1552875652102953693_n.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/lahve-nase-vyhled.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/vino-podzim-vyhled.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/vino-prkno-syr-hrozen.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/vyhled-kopec.jpg" onclick="openFullImg(this.src)">
-        <img src="/assets/GALERY-zmensene/korky.jpg" onclick="openFullImg(this.src)">
-    </div>
-<script>
+                <span onclick="closeFullImg()">X</span>
+            </div>
+            <div class="img-gallery">
+                <img
+                    src="/assets/GALERY-zmensene/270225902_465186765207047_3522218917344533618_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/270354438_481144226724720_1221120824847392917_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271249866_1111244306353492_7563944048210192410_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271374944_1288257458354947_4726703450196563103_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271387445_1560264057663418_8459110793833888062_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271434740_1563287697386710_4229358901619586451_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271480037_508248980506867_4557122359253170913_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271574825_642725276967302_7361030998954146636_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271600579_427457972405569_2513818544183330185_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271728379_331144925545961_6812167887707888248_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img
+                    src="/assets/GALERY-zmensene/271763626_472002724363806_1552875652102953693_n.jpg"
+                    onclick="openFullImg(this.src)"
+                />
+                <img src="/assets/GALERY-zmensene/lahve-nase-vyhled.jpg" onclick="openFullImg(this.src)" />
+                <img src="/assets/GALERY-zmensene/vino-podzim-vyhled.jpg" onclick="openFullImg(this.src)" />
+                <img src="/assets/GALERY-zmensene/vino-prkno-syr-hrozen.jpg" onclick="openFullImg(this.src)" />
+                <img src="/assets/GALERY-zmensene/vyhled-kopec.jpg" onclick="openFullImg(this.src)" />
+                <img src="/assets/GALERY-zmensene/korky.jpg" onclick="openFullImg(this.src)" />
+            </div>
+            <script>
+                var fullImgBox = document.getElementById('fullImgBox');
+                var fullImg = document.getElementById('fullImg');
 
-        var fullImgBox = document.getElementById("fullImgBox");
-        var fullImg = document.getElementById("fullImg");
-    
-        function openFullImg(pic){
-            fullImgBox.style.display = "flex";
-            fullImg.src = pic;
-    
-        }
+                function openFullImg(pic) {
+                    fullImgBox.style.display = 'flex';
+                    fullImg.src = pic;
+                }
 
-        function closeFullImg(){
-            fullImgBox.style.display = "none";
-    }
-        
-    </script>
+                function closeFullImg() {
+                    fullImgBox.style.display = 'none';
+                }
+            </script>
+        </main>
+        <footer>
+            <h2>Zaujali jsme Vás?</h2>
+            <p>Máte nějaké dotazy? Neváhejte nás kontaktovat.</p>
 
-</main>
-    <footer>
-        <h2>Zaujali jsme Vás?</h2>
-              <p>Máte nějaké dotazy? Neváhejte nás kontaktovat.</p>
-              
-              <p><a href="mailto:napisnam@dosklepa.com">Napište nám email</a>
+            <p>
+                <a href="mailto:napisnam@dosklepa.com">Napište nám email</a>
                 <i class="material-icons">&#xe8af;</i>
-              <i class="material-icons">&#xe8c5;</i>
-              <a href="tel:7211121111">a nebo nám zavolejte</a></p>
-              <p>v pracovní dny mezi 09-17:00h.</p>
-  </footer>
-  
-     <!--scripts-->
-     <script src="/assets/js/jQuery.js"></script>
-     <script src="./fotogalerie.js"></script>
-     <script src="./style.js"></script>
+                <i class="material-icons">&#xe8c5;</i>
+                <a href="tel:7211121111">a nebo nám zavolejte</a>
+            </p>
+            <p>v pracovní dny mezi 09-17:00h.</p>
+        </footer>
 
-</body>
+        <!--scripts-->
+        <script src="/assets/js/jQuery.js"></script>
+        <script src="./fotogalerie.js"></script>
+        <script src="./style.js"></script>
+    </body>
 </html>
